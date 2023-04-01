@@ -2,8 +2,8 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import ProjectCard from './ProjectCards';
 import Particle from '../Particle';
-import chatify from '../../Assets/Projects/chatify.png';
-import bitsOfCode from '../../Assets/Projects/blog.png';
+import React_bild from '../../Assets/React.png';
+import Nest from '../../Assets/Nest.png';
 
 function Projects() {
   return (
@@ -19,19 +19,19 @@ function Projects() {
         <Row style={{ justifyContent: 'center', paddingBottom: '10px' }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={React_bild}
               isBlog={false}
               title="Appsteam Frontend"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
+              description="In my first project, I had to learn the basics of HTML, CSS and Javascript. Then it was time for the memory app, which I realized with the framework React.js. I was then able to apply what I had learned to a productive project. I was allowed to create and realize various features in the project AOSTA."
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={Nest}
               isBlog={false}
               title="Appsteam Backend"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
+              description="My first assignment, was to create a CRUD app. Through this I was able to learn the basics of Nest.js and could now apply my learned skills in the project: Technical Assesment and deepen Nest.js."
             />
           </Col>
         </Row>
