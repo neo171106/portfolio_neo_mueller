@@ -4,7 +4,6 @@ import {
   SiLinux,
   SiVisualstudiocode,
   SiInsomnia,
-  SiHeroku,
   SiSwagger,
 } from 'react-icons/si';
 
