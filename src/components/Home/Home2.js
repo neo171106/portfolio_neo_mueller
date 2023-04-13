@@ -58,6 +58,7 @@ function Home2() {
               <li className="social-icons">
                 <a
                   href="https://www.linkedin.com/in/neo-m%C3%BCller-a041aa249/"
+                  // eslint-disable-next-line
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
