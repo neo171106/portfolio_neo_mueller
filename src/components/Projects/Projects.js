@@ -34,6 +34,15 @@ function Projects() {
               description="My first assignment, was to create a CRUD app. Through this I was able to learn the basics of Nest.js and could now apply my learned skills in the project: Technical Assesment and deepen Nest.js."
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Nest}
+              isBlog={false}
+              title="CRM Monitor focus on security"
+              description="In the CRM Monitor I was able to get to know the development of C# and Asp.net. I was responsible for single sign-on and other security topics. You can find the CRM Monitor at this URL: https://crmmonitor.corproot.net/ (Attention is only accessible in Corpnet or VPN)."
+            />
+          </Col>
         </Row>
       </Container>
     </Container>
