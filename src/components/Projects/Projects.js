@@ -4,6 +4,7 @@ import ProjectCard from './ProjectCards';
 import Particle from '../Particle';
 import React_bild from '../../Assets/React.png';
 import Nest from '../../Assets/Nest.png';
+import CSharp from '../../Assets/CSharp.webp';
 
 function Projects() {
   return (
@@ -37,7 +38,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={Nest}
+              imgPath={CSharp}
               isBlog={false}
               title="CRM Monitor focus on security"
               description="In the CRM Monitor I was able to get to know the development of C# and Asp.net. I was responsible for single sign-on and other security topics. You can find the CRM Monitor at this URL: https://crmmonitor.corproot.net/ (Attention is only accessible in Corpnet or VPN)."
