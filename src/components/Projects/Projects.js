@@ -5,6 +5,7 @@ import Particle from '../Particle';
 import React_bild from '../../Assets/React.png';
 import Nest from '../../Assets/Nest.png';
 import CSharp from '../../Assets/CSharp.webp';
+import Cascada from '../../Assets/Cascada.png';
 
 function Projects() {
   return (
@@ -42,6 +43,14 @@ function Projects() {
               isBlog={false}
               title="CRM Monitor focus on security"
               description="In the CRM Monitor I was able to get to know the development of C# and Asp.net. I was responsible for single sign-on and other security topics. You can find the CRM Monitor at this URL: https://crmmonitor.corproot.net/ (Attention is only accessible in Corpnet or VPN)."
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Cascada}
+              isBlog={false}
+              title="Cascada (Wasserfalltool)"
+              description="In Cascada, I had the opportunity to develop my own project. I acquired data from Swisscom SDW and utilized technologies such as iAPC, React, ExpressJS, and MariaDB."
             />
           </Col>
         </Row>
